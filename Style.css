@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    height: 100vh;
+    padding: 10px;
+    background: linear-gradient(135deg,#71B7E6,#9B59B6);
+}
+.Main-container{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+.Main-item{
+    width: fit-content;
+    border-radius: 5px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.Main-item h2{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.Sub-item{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    padding: 15px;
+}
+.item input{
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #D7D7D7;
+    color: #9D9A98;
+    font-size: medium;
+    margin-bottom: 10px;
+    border-bottom-color:#CDCDCD ;
+    width: 270px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.item label{
+    font-weight: bold;
+    color: #202426;
+    
+}
+.radio{
+    padding:0px 20px;
+    margin-top: -20px;
+    font-size: medium;
+    color: #342C2D;
+}
+
+.radio label{
+    padding-left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #202426;
+}
+.radio input{
+    margin-top: 10px;
+    color: #342C2D;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.left-aes{
+    margin-left: 13px;
+}
+.left-des{
+    margin-left: 60px;
+}
+.btn button{
+    width: 97%;
+    padding: 8px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    border: none;
+    color: wheat;
+    font-size: larger;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+
+.btn button:hover{
+    background:linear-gradient(135deg, #9b59b6,#71b7e6); ;
+}

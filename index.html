@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="./Style.css">
+    <script src="./Script.js"></script>
+</head>
+<body>
+    <div class="Main-container">
+        <div class="Main-item"><h2>Registration</h2>
+            <div class="Sub-item">
+                <div class="item">
+                    <label>Full Name</label><br>
+                    <input type="text" placeholder=" Enter your name" id="name"><br>
+                    <label>Email</label><br>
+                    <input type="email" placeholder="Enter your email " id="email">
+                    <br>
+                    <label>Password</label><br>
+                    <input type="password" placeholder="Enter your password" id="password">
+                </div>
+                <div class="item">
+                    <label>Username</label><br>
+                    <input type="text" placeholder=" Enter your username" id="username">
+                    <br>
+                    <label>Phone Number</label><br>
+                    <input type="number" placeholder="Enter your number" id="phno">
+                    <br>
+                    <label>Confirm Password</label><br>
+                    <input type="password" placeholder="Confirm your password" id="cpassword">
+                </div>
+            </div>
+            <div class="radio">
+                <label>Gender</label><br>
+                <input class="left-aes" type="radio"  value="male" name="gender">&nbsp;Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="left-des" type="radio"  value="female" name="gender">&nbsp;Female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="left-des" type="radio"  value="prefer not to say" name="gender">&nbsp;Prefer not to say
+            </div>
+            <div class="btn">
+                <button onclick="isValid()">Register</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
